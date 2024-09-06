@@ -46,7 +46,7 @@ function afficherMenu(donnees){
     // je remplis ma DIV avec les données de mon Objet
     donnees.forEach(donnee => {
         contenu.innerHTML += `
-                <article>
+                <article class="itemMenu">
                     <div class="img_article">
                         <img src="/images${donnee.image}" alt="${donnee.nom}">
                     </div>
@@ -216,7 +216,7 @@ function affichageOrigin(donnees){
 
     donnees.forEach(donnee => {
         contenu.innerHTML += `
-                <article>
+                <article class="itemMenu">
                     <div class="img_article">
                         <img src="/images${donnee.image}" alt="${donnee.nom}">
                     </div>
